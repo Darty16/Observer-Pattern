@@ -20,6 +20,7 @@ while (true)
     string choice = Console.ReadLine();
 
     // Process user choice using a switch statement
+    // Add validation to handle unexpected choices gracefully.
     switch (choice)
     {
         // Option 1: Add Subscriber
