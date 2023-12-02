@@ -7,6 +7,7 @@ YouTubeChannel youtubeChannel = new YouTubeChannel("Juventus");
 while (true)
 {
     // Display the current channel name
+    // use console.WriteLine
     Console.WriteLine($"Channel Name: {youtubeChannel.ChannelName}");
 
     // Display menu options
